@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaia Grabs</title>
-    <!-- icon / font links -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- icon / font / css links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700; 1,    900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
 </head>
 <!-- header and nav menu -->
-<header class="container">
+<header class="head-container">
     <img src="images/gaia-grabs-logo.png" alt="Gaia Grabs logo of a woman holding a globe">
     <div class="search-container">
         <form action="">
-            <input type="text" placeholder="Search..." name="search">
+            <input type="text" placeholder="Search..." name="search" class="search">
             <button type="submit"><i class="fa fa-search"></i></button>
         </form>
     </div>
     <div class="cart-container">
         <i class="fa-solid fa-bag-shopping fa-xl"></i>
-        <p>Check Out</p>
+        <h3>Check Out</h3>
     </div>
 </header>
 <header>
@@ -37,7 +41,6 @@
 <main>
     <!-- hero -->
     <section class="hero">
-        <img src="images/flowers-herbs-hero.jpg" alt="Bundles of fresh flowers and herbs">
         <h1>Gaia Grabs</h1>
     </section>
     <!-- intro -->
@@ -48,15 +51,15 @@
         </div>
         <!-- image slider and about -->
         <div class="slideshow-container">
-            <div class="slides-fade">
+            <div class="slides fade">
                 <img src="images/colorful-art-brushes.jpg" alt="Paintbrushes covered in different colored paint">
                 <p>You know you want to buy our art!</p>
             </div>
-            <div class="slides-fade">
+            <div class="slides fade">
                 <img src="images/rose-salt-scrub.jpg" alt="A jar of rose infused salt scrub">
                 <p>You can count on us to give you smooth hands!</p>
             </div>
-            <div class="slides-fade">
+            <div class="slides fade">
                 <img src="images/fresh-produce.jpg" alt="A variety of fresh produce; Carrots, broccoli, greens, onions">
                 <p>We have the fresh produce you want!</p>
             </div>
@@ -81,8 +84,10 @@
     <img src="images/gaia-grabs-logo.png" alt="Gaia Grabs logo of a woman holding a globe">
     <div>
         <i class="fa-solid fa-copyright fa-lg"></i>
-        <p>GaiaGrabs 2025.</p>
+        <h3>GaiaGrabs 2025.</h3>
     </div>
 </footer>
+<!-- javascript link -->
+<script src="script.js"></script>
 </body>
 </html>
