@@ -106,6 +106,7 @@ header {
 
 .search-container button {
     background-color: darkgoldenrod;
+    float: right;
 }
 
 .search {
@@ -114,6 +115,7 @@ header {
     background-color: #ECEBDE;
     margin: 4px;
     width: 95%;
+    text-align: center;
 }
 
 /* check out */
