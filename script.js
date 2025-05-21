@@ -1,5 +1,5 @@
 let slideIndex = 0;
-showslides();
+showslides(slideIndex);
 
 function showslides() {
   let i;
