@@ -9,8 +9,10 @@
 
 h2 {
     font-family: "Merriweather", serif;
-    color: black;
+    color: darkgoldenrod;
     font-weight: bold;
+    font-size: 30px;
+    text-shadow: 1.5px 1.5px 2.5px white;
 }
 
 h1 {
@@ -19,10 +21,6 @@ h1 {
     font-family: "Lato", sans-serif;
     color: goldenrod;
     text-shadow: 3px 3px 4.5px darkgreen;
-}
-
-h2 {
-    font-size: 30px;
 }
 
 h3 {
@@ -192,6 +190,12 @@ header {
     margin: 25px 20px;
 }
 
+.intro-container h2, .intro-container p {
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+}
+
 /* slideshow */
 .slideshow-container {
     /* max-width: 50%; */
@@ -276,8 +280,18 @@ header {
   transform: translateY(4px);
 }
 
-section h2 {
-    margin: 20px;
+.social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(140, 167, 98, 0.616);
+    padding: 40px;
+    margin: 20px 0px;
+}
+
+.socials a {
+    color: seagreen;
+    text-shadow: 2px 2px 4px white;
 }
 
 .footer-container {
