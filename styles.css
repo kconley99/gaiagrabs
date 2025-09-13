@@ -280,6 +280,10 @@ section h2 {
     margin: 20px;
 }
 
+.footer-container {
+    display: flex;
+}
+
   /* media queries */
 
   @media (max-width: 900px) {
@@ -293,10 +297,24 @@ section h2 {
     }
 }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
 
     .slideshow-container {
         max-width: 300px;
     }
-    
+
+    .nav-menu {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 500px) {
+
+
+    .nav-menu    {
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
 }
