@@ -307,6 +307,10 @@ header {
     align-items: center;
 }
 
+.larger-font {
+    font-size: 20px;
+}
+
   /* media queries */
 
   @media (max-width: 900px) {
