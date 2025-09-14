@@ -347,6 +347,11 @@ header {
 
     .intro-container {
         flex-direction: column;
+        margin: 0;
+    }
+
+    .intro-container h2, .intro-container p {
+        padding: 0;
     }
 
     .slideshow-container {
@@ -355,6 +360,15 @@ header {
 
     .footer-container {
         flex-direction: column;
+        gap: 10px;
+    }
+
+    .CTA button {
+        margin-bottom: 80px;
+    }
+
+    .social-container {
+        height: 130px;
     }
 
 }
