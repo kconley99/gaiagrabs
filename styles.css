@@ -149,6 +149,7 @@ header {
     justify-content: space-evenly;
     padding: 10px;
     background-color: #D7D3BF;
+    flex-direction: row;
 }
 
 /* hero */
