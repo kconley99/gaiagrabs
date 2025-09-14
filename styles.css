@@ -322,6 +322,10 @@ header {
         flex-direction: column;
     }
 
+}
+
+@media (max-width: 375px) {
+
     .head-container {
         height: 250px;
         flex-direction: column;
@@ -337,8 +341,16 @@ header {
         align-items: center;
     }
 
+    .intro-container {
+        flex-direction: column;
+    }
 
+    .slideshow-container {
+        width: 350px;
+    }
 
-
+    .footer-container {
+        flex-direction: column;
+    }
 
 }
