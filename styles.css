@@ -203,6 +203,7 @@ header {
     /* max-width: 50%; */
     position: relative;
     margin: auto;
+    width: 200px;
 }
 
 .slideshow-img {
@@ -288,7 +289,6 @@ header {
     align-items: center;
     background-color: rgba(140, 167, 98, 0.616);
     padding: 40px;
-    margin: 20px 0px;
 }
 
 .socials a {
@@ -300,6 +300,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #dbceaf;
 }
 
 .footer-container div {
@@ -314,36 +315,3 @@ header {
 }
 
   /* media queries */
-
-  @media (max-width: 900px) {
-    .intro-container {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .slideshow-container {
-        margin: 0;
-    }
-}
-
-@media (min-width: 500px) {
-
-    .slideshow-container {
-        max-width: 300px;
-    }
-
-    .nav-menu {
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-}
-
-@media (min-width: 500px) {
-
-
-    .nav-menu    {
-        flex-direction: column;
-        gap: 10px;
-        flex-wrap: wrap;
-    }
-}
