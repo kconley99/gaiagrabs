@@ -203,7 +203,8 @@ header {
     /* max-width: 50%; */
     position: relative;
     margin: auto;
-    width: 200px;
+    width: 600px;
+    height: 600px;
 }
 
 .slideshow-img {
@@ -287,8 +288,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 600px;
-    height: 600px;
+    justify-content: center;
+    height: 120px;
 }
 
 .socials a {
