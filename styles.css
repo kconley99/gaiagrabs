@@ -68,7 +68,7 @@ button {
     opacity: 0.8;
     transition: 0.2s;
     font-weight: bold;
-    margin: 4px 8px;
+    margin-top: 6px;
 }
 
 .search-container button:hover {
@@ -105,6 +105,7 @@ header {
     padding: 1.5px;
     background-color: #ECEBDE;
     width: 60%;
+    height: 50px;
 }
 
 .search-container button {
@@ -126,7 +127,7 @@ header {
 /* check out */
 .cart-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 12px;
     align-items: center;
     justify-items: center;
