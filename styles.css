@@ -322,6 +322,10 @@ header {
         flex-direction: column;
     }
 
+    .search-container button {
+        
+    }
+
 }
 
 @media (max-width: 375px) {
